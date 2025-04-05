@@ -1,0 +1,15 @@
+export const nameOfCollections = {
+  Conversation: 'conversations',
+  Message: 'messages',
+  EndUser: 'endusers',
+  Admin: 'admins',
+  Like: 'likes',
+  Post: 'posts',
+  Group: 'Group',
+  Event: 'events',
+  Comment: 'comments',
+  Friend: 'friends',
+  Notification: 'notifications',
+  Subscription: 'subscriptions',
+  Receipt: 'receipts',
+} as const;
